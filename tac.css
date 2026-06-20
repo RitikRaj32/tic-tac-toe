@@ -105,3 +105,45 @@ h1{
 .hide{
     display:none;
 }
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+    h1{
+        font-size: 6vw;
+        padding: 10px 0;
+    }
+
+    .container{
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .game{
+        height: 90vmin;
+        width: 90vmin;
+        gap: 2vmin;
+    }
+
+    .box{
+        height: 27vmin;
+        width: 27vmin;
+        font-size: 12vmin;
+    }
+
+    #reset{
+        width: 160px;
+        font-size: 18px;
+        padding: 0.75rem;
+        margin-top: 16px;
+    }
+
+    #newgame{
+        font-size: 18px;
+        padding: 0.75rem;
+    }
+
+    #smg{
+        font-size: 5vw;
+        text-align: center;
+        padding: 4px 10px;
+    }
+}
